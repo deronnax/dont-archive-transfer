@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Don't Archive, Transfer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background-color: #007acc;
+            color: white;
+            padding: 1rem 2rem;
+            text-align: center;
+        }
+        main {
+            padding: 2rem;
+        }
+        section {
+            margin-bottom: 2rem;
+        }
+        h1, h2 {
+            color: #007acc;
+        }
+        a {
+            color: #007acc;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #007acc;
+            color: white;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Don't Archive, Transfer</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Why Archiving is Harmful</h2>
+            <p>Archiving a project might seem like a clean exit, but it can cause significant problems for the community:
+            </p>
+            <ul>
+                <li><strong>Issues are lost:</strong> All unresolved issues, suggestions, and discussions vanish, cutting off valuable context for future development.</li>
+                <li><strong>Partial history loss:</strong> Forks often lack the full context or connections to the original repository.</li>
+                <li><strong>PyPI namespace loss:</strong> When the repository is archived, the PyPI namespace becomes inaccessible, blocking further development on the package name.</li>
+            </ul>
+        </section>
+        <section>
+            <h2>The Better Alternative: Transfer Ownership</h2>
+            <p>If you can no longer maintain a project, consider transferring it instead of archiving. Here's why:</p>
+            <ul>
+                <li><strong>Continuity:</strong> The project remains active and accessible to users and contributors.</li>
+                <li><strong>Preservation:</strong> Issues, discussions, and context are retained.</li>
+                <li><strong>Namespace Integrity:</strong> PyPI namespaces and repository URLs remain intact, avoiding disruptions.</li>
+            </ul>
+        </section>
+        <section>
+            <h2>How to Transfer a Project</h2>
+            <ol>
+                <li><strong>Find a trusted maintainer:</strong> Look for active contributors or community members willing to take over.</li>
+                <li><strong>Transfer repository ownership:</strong> Use GitHub's repository transfer feature to hand over the project.</li>
+                <li><strong>Transfer PyPI access:</strong> Add the new maintainer to your PyPI project via the <a href="https://pypi.org/help/#managing-roles" target="_blank">PyPI role management interface</a>.</li>
+                <li><strong>Announce the transition:</strong> Inform users and contributors about the new maintainer and future plans.</li>
+            </ol>
+        </section>
+        <section>
+            <h2>Tools to Help</h2>
+            <p>Consider using these tools to facilitate the process:</p>
+            <ul>
+                <li><a href="https://github.com" target="_blank">GitHub's Repository Transfer</a></li>
+                <li><a href="https://pypi.org/" target="_blank">PyPI Role Management</a></li>
+                <li><a href="https://openfaas.com" target="_blank">OpenFaaS</a> for community-driven maintenance models</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Don't Archive, Transfer Initiative</p>
+    </footer>
+</body>
+</html>
